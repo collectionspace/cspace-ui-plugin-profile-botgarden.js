@@ -8,4 +8,8 @@ export default {
   'field.collectionobjects_common.briefDescription.name': 'Material type',
   'field.collectionobjects_common.comment.name': 'Accession note',
   'field.collectionobjects_common.fieldCollectionNote.name': 'Habitat information',
+
+  'vocab.location.local.name': 'Garden',
+  'vocab.location.local.collectionName': 'Garden Locations',
+  'vocab.location.local.itemName': 'Garden Location',
 };
