@@ -4,7 +4,6 @@ export default (configContext) => {
   const {
     AutocompleteInput,
     CheckboxInput,
-    CompoundInput,
     DateInput,
     OptionPickerInput,
     TextInput,
@@ -72,11 +71,6 @@ export default (configContext) => {
           },
         },
         assocConceptGroupList: {
-          [config]: {
-            view: {
-              type: CompoundInput,
-            },
-          },
           assocConceptGroup: {
             assocConcept: {
               [config]: {
