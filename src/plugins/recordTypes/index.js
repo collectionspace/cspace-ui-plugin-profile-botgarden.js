@@ -3,6 +3,7 @@ import concept from './concept';
 import group from './group';
 import intake from './intake';
 import loanout from './loanout';
+import movement from './movement';
 
 export default [
   collectionobject,
@@ -10,4 +11,5 @@ export default [
   group,
   intake,
   loanout,
+  movement,
 ];

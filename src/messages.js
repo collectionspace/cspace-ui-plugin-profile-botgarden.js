@@ -36,4 +36,17 @@ export default {
   'vocab.location.local.name': 'Garden',
   'vocab.location.local.collectionName': 'Garden Locations',
   'vocab.location.local.itemName': 'Garden Location',
+
+  // movement
+
+  'panel.movement.location': 'Current Location Information',
+  'panel.movement.movement': 'Label Information',
+
+  'field.movements_common.locationDate.name': 'Action date',
+  'field.movements_common.reasonForMove.name': 'Action code',
+  'field.movements_common.currentLocation.fullName': 'Garden location',
+  'field.movements_common.currentLocation.name': 'Garden location',
+
+  'record.movement.name': 'Current Location',
+  'record.movement.collectionName': 'Current Locations',
 };

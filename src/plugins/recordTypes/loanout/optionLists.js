@@ -17,22 +17,4 @@ export default {
       },
     }),
   },
-  labelRequestedValues: {
-    // This differs from the yesNoValues option list defined in cspace-ui, in that the data values
-    // are capitalized.
-    values: [
-      'Yes',
-      'No',
-    ],
-    messages: defineMessages({
-      Yes: {
-        id: 'option.labelRequestedValues.Yes',
-        defaultMessage: 'yes',
-      },
-      No: {
-        id: 'option.labelRequestedValues.No',
-        defaultMessage: 'no',
-      },
-    }),
-  },
 };
