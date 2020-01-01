@@ -13,7 +13,8 @@ export default {
 
   // loanout
 
-  'panel.loanout.info': 'Voucher Information',
+  'column.loanout.default.loanOutNumber': 'Voucher number',
+  'column.loanout.default.borrower': 'Voucher institution',
 
   'field.loansout_common.loanOutNumber.name': 'Voucher number',
   'field.loansout_common.loanOutDate.name': 'Voucher date',
@@ -25,11 +26,10 @@ export default {
   'field.loansout_common.lendersAuthorizer.fullName': 'Reviewed by',
   'field.loansout_common.lendersAuthorizer.name': 'Reviewed by',
 
+  'panel.loanout.info': 'Voucher Information',
+
   'record.loanout.name': 'Voucher',
   'record.loanout.collectionName': 'Vouchers',
-
-  'column.loanout.default.loanOutNumber': 'Voucher number',
-  'column.loanout.default.borrower': 'Voucher institution',
 
   // location
 
@@ -39,14 +39,31 @@ export default {
 
   // movement
 
-  'panel.movement.location': 'Current Location Information',
-  'panel.movement.movement': 'Label Information',
-
   'field.movements_common.locationDate.name': 'Action date',
   'field.movements_common.reasonForMove.name': 'Action code',
   'field.movements_common.currentLocation.fullName': 'Garden location',
   'field.movements_common.currentLocation.name': 'Garden location',
 
+  'panel.movement.location': 'Current Location Information',
+  'panel.movement.movement': 'Label Information',
+
   'record.movement.name': 'Current Location',
   'record.movement.collectionName': 'Current Locations',
+
+  // objectexit
+
+  'column.objectexit.default.exitNumber': 'Distribution number',
+
+  'field.objectexit_common.exitNumber.name': 'Distribution number',
+  'field.objectexit_common.exitDateGroup.name': 'Date',
+  'field.objectexit_common.currentOwner.name': 'Authorized by',
+  'field.objectexit_common.depositor.name': 'Organization',
+  'field.objectexit_common.exitMethod.name': 'Distribution method',
+  'field.objectexit_common.exitReason.name': 'Distribution reason',
+  'field.objectexit_common.exitNote.name': 'Distribution note',
+
+  'panel.objectexit.info': 'Distribution Information',
+
+  'record.objectexit.name': 'Distribution',
+  'record.objectexit.collectionName': 'Distributions',
 };
