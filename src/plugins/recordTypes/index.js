@@ -5,6 +5,7 @@ import intake from './intake';
 import loanout from './loanout';
 import movement from './movement';
 import objectexit from './objectexit';
+import pottag from './pottag';
 
 export default [
   collectionobject,
@@ -14,4 +15,5 @@ export default [
   loanout,
   movement,
   objectexit,
+  pottag,
 ];
