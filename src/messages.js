@@ -33,7 +33,13 @@ export default {
 
   // location
 
-  'vocab.location.local.name': 'Garden',
+  'record.location.name': 'Garden Location',
+  'record.location.collectionName': 'Garden Locations',
+
+  'vocab.location.all.collectionName': 'All Garden Locations',
+  'vocab.location.all.itemName': 'Garden Location',
+
+  'vocab.location.local.name': 'Garden Location',
   'vocab.location.local.collectionName': 'Garden Locations',
   'vocab.location.local.itemName': 'Garden Location',
 
