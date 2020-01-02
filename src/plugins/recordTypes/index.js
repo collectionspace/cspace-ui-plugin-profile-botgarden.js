@@ -6,6 +6,7 @@ import loanout from './loanout';
 import movement from './movement';
 import objectexit from './objectexit';
 import pottag from './pottag';
+import propagation from './propagation';
 
 export default [
   collectionobject,
@@ -16,4 +17,5 @@ export default [
   movement,
   objectexit,
   pottag,
+  propagation,
 ];
