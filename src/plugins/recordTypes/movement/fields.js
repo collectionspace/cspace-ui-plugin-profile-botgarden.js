@@ -49,6 +49,12 @@ export default (configContext) => {
         },
         previousLocation: {
           [config]: {
+            messages: defineMessages({
+              name: {
+                id: 'field.movements_botgarden.previousLocation.name',
+                defaultMessage: 'Previous location',
+              },
+            }),
             view: {
               type: AutocompleteInput,
               props: {

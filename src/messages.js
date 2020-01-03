@@ -49,6 +49,8 @@ export default {
   'field.movements_common.reasonForMove.name': 'Action code',
   'field.movements_common.currentLocation.fullName': 'Garden location',
   'field.movements_common.currentLocation.name': 'Garden location',
+  'field.movements_common.movementContact.fullName': 'Contact',
+  'field.movements_common.movementContact.name': 'Contact',
 
   'panel.movement.location': 'Current Location Information',
   'panel.movement.movement': 'Label Information',
