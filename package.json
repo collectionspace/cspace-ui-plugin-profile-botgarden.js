@@ -1,8 +1,8 @@
 {
   "name": "cspace-ui-plugin-profile-botgarden",
-  "version": "0.0.1",
+  "version": "1.0.0-rc.1",
   "description": "Botanical Garden profile plugin for the CollectionSpace UI",
-  "author": "",
+  "author": "Ray Lee <ray.lee@lyrasis.org>",
   "license": "ECL-2.0",
   "keywords": [
     "collectionspace",
