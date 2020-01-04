@@ -13,10 +13,9 @@ export default {
 
   // loanout
 
-  'column.loanout.default.loanOutNumber': 'Voucher number',
-  'column.loanout.default.borrower': 'Voucher institution',
+  'column.loanout.default.borrower': 'Institution',
 
-  'field.loansout_common.loanOutNumber.name': 'Voucher number',
+  'field.loansout_common.loanOutNumber.name': 'Voucher collection number',
   'field.loansout_common.loanOutDate.name': 'Voucher date',
   'field.loansout_common.loanPurpose.name': 'Voucher purpose',
   'field.loansout_common.loanOutNote.name': 'Voucher note',
