@@ -81,7 +81,6 @@ const template = (configContext) => {
             <Field name="propActivityGroup">
               <Panel>
                 <Row>
-                  <Field name="order" />
                   <Field name="activityDate" />
                   <Field name="activityType" />
                   <Field name="propCount" />

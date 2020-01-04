@@ -377,24 +377,26 @@ export default (configContext) => {
                 type: CompoundInput,
               },
             },
-            order: {
-              [config]: {
-                dataType: DATA_TYPE_INT,
-                messages: defineMessages({
-                  fullName: {
-                    id: 'field.propagations_common.order.fullName',
-                    defaultMessage: 'Activity order',
-                  },
-                  name: {
-                    id: 'field.propagations_common.order.name',
-                    defaultMessage: 'Order',
-                  },
-                }),
-                view: {
-                  type: TextInput,
-                },
-              },
-            },
+            // The order field isn't really useful in 5.0, since repeating field values are
+            // reorderable with the keyboard, and the order number is displayed automatically.
+            // order: {
+            //   [config]: {
+            //     dataType: DATA_TYPE_INT,
+            //     messages: defineMessages({
+            //       fullName: {
+            //         id: 'field.propagations_common.order.fullName',
+            //         defaultMessage: 'Activity order',
+            //       },
+            //       name: {
+            //         id: 'field.propagations_common.order.name',
+            //         defaultMessage: 'Order',
+            //       },
+            //     }),
+            //     view: {
+            //       type: TextInput,
+            //     },
+            //   },
+            // },
             activityDate: {
               [config]: {
                 dataType: DATA_TYPE_STRUCTURED_DATE,
