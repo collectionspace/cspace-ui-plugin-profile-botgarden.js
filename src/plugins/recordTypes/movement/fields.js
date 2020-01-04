@@ -23,7 +23,6 @@ export default (configContext) => {
           [config]: {
             required: false,
             view: {
-              type: AutocompleteInput,
               props: {
                 source: 'organization/local,organization/shared',
               },

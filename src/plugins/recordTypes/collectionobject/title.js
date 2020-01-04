@@ -4,6 +4,10 @@ export default (configContext) => (data) => {
     getPart,
   } = configContext.recordDataHelpers;
 
+  const {
+    formatRefName,
+  } = configContext.formatHelpers;
+
   if (!data) {
     return '';
   }
@@ -11,12 +15,12 @@ export default (configContext) => (data) => {
   const commonPart = getPart(data, 'collectionobjects_common');
   const objectNumber = commonPart && commonPart.get('objectNumber');
 
-  const naturalHistoryPart = getPart(data, 'naturalhistory_extension');
+  const naturalHistoryPart = getPart(data, 'collectionobjects_naturalhistory_extension');
 
-  const taxon = deepGet(
+  const taxon = formatRefName(deepGet(
     naturalHistoryPart,
     ['taxonomicIdentGroupList', 'taxonomicIdentGroup', 0, 'taxon'],
-  );
+  ));
 
   return [objectNumber, taxon].filter((part) => !!part).join(' – ');
 };
