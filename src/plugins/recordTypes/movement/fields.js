@@ -24,7 +24,7 @@ export default (configContext) => {
             required: false,
             view: {
               props: {
-                source: 'organization/local,organization/shared',
+                source: 'location/local,organization/local,organization/shared',
               },
             },
           },
