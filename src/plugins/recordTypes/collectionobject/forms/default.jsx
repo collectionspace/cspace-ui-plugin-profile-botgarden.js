@@ -95,7 +95,10 @@ const template = (configContext) => {
             </Field>
           </Col>
 
-          <Field name="source" subpath="ns2:collectionobjects_botgarden" />
+          <Col>
+            <Field name="namedCollection" />
+            <Field name="source" subpath="ns2:collectionobjects_botgarden" />
+          </Col>
         </Row>
 
         <Field name="comments">
