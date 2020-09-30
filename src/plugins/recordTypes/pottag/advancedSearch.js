@@ -13,6 +13,10 @@ export default (configContext) => {
     op: defaultAdvancedSearchBooleanOp,
     value: [
       {
+        op: OP_CONTAIN,
+        path: 'ns2:pottags_common/potTagNumber',
+      },
+      {
         op: OP_EQ,
         path: 'ns2:pottags_common/family',
       },

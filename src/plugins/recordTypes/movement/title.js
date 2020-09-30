@@ -18,9 +18,10 @@ export default (configContext) => (data) => {
     return '';
   }
 
+  const movementReferenceNumber = common.get('movementReferenceNumber');
   const currentLocation = formatRefName(common.get('currentLocation'));
   const locationDate = formatDate(common.get('locationDate'));
   const reasonForMove = formatRefName(common.get('reasonForMove'));
 
-  return [currentLocation, reasonForMove, locationDate].filter((part) => !!part).join(' – ');
+  return [movementReferenceNumber, currentLocation, reasonForMove, locationDate].filter((part) => !!part).join(' – ');
 };

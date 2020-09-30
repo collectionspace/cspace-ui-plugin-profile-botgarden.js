@@ -21,6 +21,7 @@ const template = (configContext) => {
       <Panel name="info" collapsible>
         <Cols>
           <Col>
+            <Field name="potTagNumber" />
             <Field name="family" />
             <Field name="commonName" />
             <Field name="locale" />

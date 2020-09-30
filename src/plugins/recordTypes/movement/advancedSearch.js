@@ -2,6 +2,7 @@ export default (configContext) => {
   const {
     OP_EQ,
     OP_RANGE,
+    OP_CONTAIN,
   } = configContext.searchOperators;
 
   const {
@@ -12,6 +13,10 @@ export default (configContext) => {
   return {
     op: defaultAdvancedSearchBooleanOp,
     value: [
+      {
+        op: OP_CONTAIN,
+        path: 'ns2:movements_common/movementReferenceNumber',
+      },
       {
         op: OP_RANGE,
         path: 'ns2:movements_common/locationDate',
