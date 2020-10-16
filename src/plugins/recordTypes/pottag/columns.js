@@ -9,6 +9,17 @@ export default (configContext) => {
 
   return {
     default: {
+      potTagNumber: {
+        messages: defineMessages({
+          label: {
+            id: 'column.pottag.default.potTagNumber',
+            defaultMessage: 'Reference number',
+          },
+        }),
+        order: 10,
+        sortBy: 'pottags_common:potTagNumber',
+        width: 200,
+      },
       commonName: {
         messages: defineMessages({
           label: {
@@ -16,7 +27,7 @@ export default (configContext) => {
             defaultMessage: 'Common name',
           },
         }),
-        order: 10,
+        order: 20,
         sortBy: 'pottags_common:commonName',
         width: 200,
       },
@@ -28,7 +39,7 @@ export default (configContext) => {
             defaultMessage: 'Family',
           },
         }),
-        order: 20,
+        order: 30,
         sortBy: 'pottags_common:family',
         width: 200,
       },
@@ -40,7 +51,7 @@ export default (configContext) => {
             defaultMessage: 'Print labels',
           },
         }),
-        order: 30,
+        order: 40,
         sortBy: 'pottags_common:printLabels',
         width: 150,
       },
@@ -52,7 +63,7 @@ export default (configContext) => {
             defaultMessage: 'Updated',
           },
         }),
-        order: 40,
+        order: 50,
         sortBy: 'collectionspace_core:updatedAt',
         width: 150,
       },

@@ -6,6 +6,7 @@ export default (configContext) => {
     OptionPickerInput,
     TextInput,
     AutocompleteInput,
+    IDGeneratorInput,
   } = configContext.inputComponents;
 
   const {
@@ -35,6 +36,27 @@ export default (configContext) => {
         [config]: {
           service: {
             ns: 'http://collectionspace.org/services/pottag',
+          },
+        },
+        potTagNumber: {
+          [config]: {
+            cloneable: false,
+            messages: defineMessages({
+              name: {
+                id: 'field.pottags_common.potTagNumber.name',
+                defaultMessage: 'Reference number',
+              },
+            }),
+            required: false,
+            searchView: {
+              type: TextInput,
+            },
+            view: {
+              type: IDGeneratorInput,
+              props: {
+                source: 'pottag',
+              },
+            },
           },
         },
         family: {

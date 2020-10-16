@@ -17,8 +17,9 @@ export default (configContext) => (data) => {
     return '';
   }
 
+  const potTagNumber = common.get('potTagNumber');
   const commonName = common.get('commonName');
   const family = getDisplayName(common.get('family'));
 
-  return [commonName, family].filter((part) => !!part).join(' – ');
+  return [potTagNumber, commonName, family].filter((part) => !!part).join(' – ');
 };

@@ -29,6 +29,7 @@ const template = (configContext) => {
           </Col>
 
           <Col>
+            <Field name="movementReferenceNumber" />
             <Field name="movementNote" />
           </Col>
         </Cols>

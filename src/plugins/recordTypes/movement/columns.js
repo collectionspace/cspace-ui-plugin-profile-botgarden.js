@@ -8,7 +8,9 @@ export default (configContext) => {
   return {
     default: {
       movementReferenceNumber: {
-        disabled: true,
+        order: 10,
+        width: 250,
+        sortBy: 'movements_common:movementReferenceNumber',
       },
       currentLocation: {
         order: 20,
