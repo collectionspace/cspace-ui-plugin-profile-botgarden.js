@@ -42,7 +42,6 @@
   "dependencies": {
     "cspace-ui-plugin-ext-accessionattributes": "^1.0.0",
     "cspace-ui-plugin-ext-accessionuse": "^1.0.0",
-    "cspace-ui-plugin-ext-annotation": "^1.0.0",
     "cspace-ui-plugin-ext-locality": "^1.0.2",
     "cspace-ui-plugin-ext-naturalhistory": "^1.1.0",
     "cspace-ui-plugin-record-taxon": "^2.0.0",
