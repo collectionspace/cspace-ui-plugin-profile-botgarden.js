@@ -5,7 +5,6 @@
 import { defineMessages } from 'react-intl';
 import accessionAttributesExtensionPlugin from 'cspace-ui-plugin-ext-accessionattributes';
 import accessionUseExtensionPlugin from 'cspace-ui-plugin-ext-accessionuse';
-import annotationExtensionPlugin from 'cspace-ui-plugin-ext-annotation';
 import localityExtensionPlugin from 'cspace-ui-plugin-ext-locality';
 import naturalHistoryExtensionPlugin from 'cspace-ui-plugin-ext-naturalhistory';
 import taxonRecordPlugin from 'cspace-ui-plugin-record-taxon';
@@ -32,7 +31,6 @@ export default () => ({
   plugins: [
     accessionAttributesExtensionPlugin(),
     accessionUseExtensionPlugin(),
-    annotationExtensionPlugin(),
     localityExtensionPlugin(),
     naturalHistoryExtensionPlugin(),
     taxonRecordPlugin(),

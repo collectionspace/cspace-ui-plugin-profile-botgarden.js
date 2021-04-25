@@ -1,5 +1,11 @@
 # Change Log
 
+## v3.0.0
+
+### Breaking Changes
+
+- v3.0.0 requires cspace-ui version 6. The record editor form for object records now uses the annotation fields that are defined in cspace-ui as of version 6, instead of using the (now deprecated) cspace-ui-plugin-ext-annotation plugin.
+
 ## v2.0.0
 
 v2.0.0 adds support for CollectionSpace 6.1.

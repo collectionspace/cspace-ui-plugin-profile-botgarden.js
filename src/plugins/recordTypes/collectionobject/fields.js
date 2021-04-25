@@ -311,7 +311,6 @@ export default (configContext) => {
       },
       ...extensions.accessionattributes.collectionobject.fields,
       ...extensions.accessionuse.collectionobject.fields,
-      ...extensions.annotation.collectionobject.fields,
       ...extensions.naturalhistory.collectionobject.fields,
     },
   };
