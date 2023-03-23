@@ -25,6 +25,12 @@ export default () => ({
           defaultMessage: 'Botanical Garden profile',
         },
       }),
+      packageName: cspaceUIPluginProfileBotGarden.packageName,
+      packageVersion: cspaceUIPluginProfileBotGarden.packageVersion,
+      buildNum: cspaceUIPluginProfileBotGarden.buildNum,
+      repositoryUrl: cspaceUIPluginProfileBotGarden.repositoryUrl,
+      // packageVersion is now preferred, but keep version for backward compatibility with older
+      // versions of cspace-ui.
       version: cspaceUIPluginProfileBotGarden.packageVersion,
     },
   },
