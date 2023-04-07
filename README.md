@@ -1,6 +1,7 @@
 # cspace-ui-plugin-profile-botgarden
 
-[![build status](https://travis-ci.org/collectionspace/cspace-ui-plugin-profile-botgarden.js.svg?branch=master)](https://travis-ci.org/collectionspace/cspace-ui-plugin-profile-botgarden.js)
+[![npm package](https://img.shields.io/npm/v/cspace-ui-plugin-profile-botgarden.svg)](https://www.npmjs.com/package/cspace-ui-plugin-profile-botgarden)
+[![continuous integration](https://github.com/collectionspace/cspace-ui-plugin-profile-botgarden.js/actions/workflows/ci-js.yml/badge.svg?branch=master&event=push)](https://github.com/collectionspace/cspace-ui-plugin-profile-botgarden.js/actions/workflows/ci-js.yml)
 
 Botanical Garden profile plugin for the CollectionSpace UI.
 
