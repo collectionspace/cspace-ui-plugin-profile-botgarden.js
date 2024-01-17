@@ -32,6 +32,13 @@ const template = (configContext) => {
           <Field name="deadDate" subpath="ns2:collectionobjects_botgarden" />
         </Row>
 
+        <Field name="otherNumberList">
+          <Field name="otherNumber">
+            <Field name="numberValue" />
+            <Field name="numberType" />
+          </Field>
+        </Field>
+
         {/*
           This layout of taxonomicIdentGroup from the naturalhistory extension is unique to the
           botgarden profile's collectionobject form, so it's defined here, instead of using the
