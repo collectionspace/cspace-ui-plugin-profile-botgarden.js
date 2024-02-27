@@ -12,6 +12,7 @@ import loanout from './loanout';
 import location from './location';
 import movement from './movement';
 import objectexit from './objectexit';
+import person from './person';
 import place from './place';
 import pottag from './pottag';
 import propagation from './propagation';
@@ -31,6 +32,7 @@ export default [
   location,
   movement,
   objectexit,
+  person,
   place,
   pottag,
   propagation,
