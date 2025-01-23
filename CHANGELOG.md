@@ -1,5 +1,11 @@
 # Change Log
 
+## v4.0.0
+
+### Breaking Changes
+
+- v4.0.0 requires cspace-ui version 10. The record editor form for object records now uses the published related link group that is defined in cspace-ui as of version 10.
+
 ## v3.0.0
 
 ### Breaking Changes
